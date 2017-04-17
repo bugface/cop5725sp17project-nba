@@ -1,0 +1,24 @@
+{% extends "layouts/layout.html" %}
+{% block content %}
+<a class="btn btn-primary" href="{{url_for('home')}}" style="width:6%; display: block; margin: 0px auto">BACK</a>
+<div>
+	<table width="500">
+		<caption style="font-size:40px">Tuples count in Database</caption>
+		<tbody>
+			<tr style="font-size:30px">
+				<th>database</th>
+				<th>tuple number</th>
+			</tr>
+			{% for number in number %}
+			<tr style="font-size:25px">
+				<td>{{ number.table }}</td>
+				<td>{{ number.data }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+<script>
+	alert("Query executed!")
+</script>
+{% endblock %}

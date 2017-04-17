@@ -1,0 +1,242 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<style type="text/css">
+.panel-title {
+	height: 25px;
+}
+</style>
+<div id="showpart">
+	<div class="panel panel-primary">
+	<div id="btn1" class="panel-heading">
+	    <h3 class="panel-title">NBA Champion</h3>
+	 </div>
+	 {% if gator is not none %}
+	  <div id="div1" class="panel-body">
+	  {% endif %}
+
+	  {% if gator is none %}
+	  <div id="div1" class="panel-body" style="display: none">
+	  {% endif %}
+
+	 	<div class="row">
+			<div class="col-lg-3">
+				{{ wtf.quick_form(form1) }}
+			</div>
+			<div class="col-lg-9">
+		    {% if gator is not none %}
+		    <div class="thumbnail" id="thumbnail-player" style="text-align: center">
+		        <table class="table">
+		            <thead>
+		              <tr id = "tabletr">
+		                <th>Name</th>
+		                <th>Team</th>
+		                <th>Season</th>
+		              </tr>
+		            </thead>
+
+		            <tbody>
+		            {% for gator in gator %}
+		              <tr id = "tabletr">
+		                <th>{{ gator.name }}</th>
+		                <th>{{ gator.team }}</th>
+		                <th>{{ gator.season }}</th>
+		              </tr>
+		            {% endfor %}
+		            </tbody>
+		        </table>
+	      	</div>
+			{% else %}
+	   		 <p>Select a team first</p>
+			{%endif %}
+		    </div>
+	 	</div>
+	  </div>
+	</div>
+
+
+	<div class="panel panel-primary">
+	<div id="btn2" class="panel-heading">
+	    <h3 class="panel-title">Top 10 Highest Score</h3>
+	 </div>
+	 {% if sc is not none %}
+	   <div id="div2" class="panel-body">
+	  {% endif %}
+
+	  {% if sc is none %}
+	   <div id="div2" class="panel-body" style="display: none">
+	  {% endif %}
+
+	    <div class="row">
+			<div class="col-lg-3">
+	    		{{ wtf.quick_form(form2) }}
+			</div>
+	    	<div class="col-lg-9">
+	    	{% if sc is not none %}
+			<div class="thumbnail" id="thumbnail-player" style="text-align: center">
+	        <table class="table">
+	            <thead>
+	              <tr id = "tabletr">
+	                <th>Name</th>
+	                <th>Age</th>
+	                <th>Score</th>
+	              </tr>
+	            </thead>
+	            <tbody>
+	            {% for sc in sc %}
+	              <tr id = "tabletr">
+	                <th>{{ sc.name }}</th>
+	                <th>{{ sc.age }}</th>
+	                <th>{{ sc.score }}</th>
+	              </tr>
+	            {% endfor %}
+	            </tbody>
+	        </table>
+      		</div>
+		{% else %}
+   		 <p>Select a season first</p>
+		{%endif %}
+	    </div>
+	  </div>
+	</div>
+	</div>
+
+	<div class="panel panel-primary">
+		<div id="btn3" class="panel-heading">
+		    <h3 class="panel-title">Best Shooter</h3>
+		 </div>
+		{% if best_3 is not none %}
+	   <div id="div3" class="panel-body">
+	  {% endif %}
+
+	  {% if best_3 is none %}
+	  <div id="div3" class="panel-body" style="display: none">
+	  {% endif %}
+
+	 	<div class="row">
+		 	<div class="col-lg-3">
+				{{ wtf.quick_form(form4) }}
+			</div>
+
+		  	<div class="col-lg-9">
+		    {% if best_3 is not none %}
+	    		<div class="thumbnail" id="thumbnail-player" style="text-align: center">
+		        <table class="table">
+		            <thead>
+		              <tr id = "tabletr">
+		                <th>Name</th>
+		                <th>shot made</th>
+		                <th>shot attempted</th>
+		                <th>shot percentage</th>
+		              </tr>
+		            </thead>
+		            <tbody>
+		            {% for each in best_3 %}
+		              <tr id = "tabletr">
+		                <th>{{ each.name }}</th>
+		                <th>{{ each.made }}</th>
+		                <th>{{ each.att }}</th>
+		                <th>{{ each.per }}</th>
+		              </tr>
+		            {% endfor %}
+		            </tbody>
+		        </table>
+	      		</div>
+			{% else %}
+	   			<p>Select a kind of shot</p>
+			{%endif %}
+	  	</div>
+		 </div>
+		</div>
+	</div>
+
+
+	<div class="panel panel-primary">
+		<div id="btn4" class="panel-heading">
+		    <h3 class="panel-title">Coach Performace</h3>
+		 </div>
+		{% if coach_record is not none %}
+	   <div id="div4" class="panel-body">
+	  {% endif %}
+
+	  {% if coach_record is none %}
+	  <div id="div4" class="panel-body" style="display: none">
+	  {% endif %}
+
+	 	<div class="row">
+		 	<div class="col-lg-3">
+				{{ wtf.quick_form(form3) }}
+			</div>
+
+		  	<div class="col-lg-9">
+		    {% if coach_record is not none %}
+	    		<div class="thumbnail" id="thumbnail-player" style="text-align: center">
+		        <table class="table">
+		            <thead>
+		              <tr id = "tabletr">
+		                <th>Name</th>
+		                <th>Team</th>
+		                <th>Win</th>
+		              </tr>
+		            </thead>
+		            <tbody>
+		            {% for coach in coach_record %}
+		              <tr id = "tabletr">
+		                <th>{{ coach.coach }}</th>
+		                <th>{{ coach.team }}</th>
+		                <th>{{ coach.win }}</th>
+		              </tr>
+		            {% endfor %}
+		            </tbody>
+		        </table>
+	      		</div>
+			{% else %}
+	   			<p>Select a season first</p>
+			{%endif %}
+	  	</div>
+		 </div>
+		</div>
+	</div>
+
+	<script>
+		$("#btn1").click(function(){
+			$('#div1').show();
+			$('#div2').hide();
+			$('#div3').hide();
+			$('#div4').hide();
+		});
+
+		$("#btn2").click(function(){
+			$('#div2').show();
+			$('#div1').hide();
+			$('#div3').hide();
+			$('#div4').hide();
+
+		});
+
+		$("#btn3").click(function(){
+			$('#div3').show();
+			$('#div1').hide();
+			$('#div2').hide();
+			$('#div4').hide();
+
+		});
+
+		$("#btn4").click(function(){
+			$('#div4').show();
+			$('#div1').hide();
+			$('#div2').hide();
+			$('#div3').hide();
+
+		});
+
+	</script>
+</div>
+
+
+{% endblock %}

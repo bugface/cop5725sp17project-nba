@@ -1,0 +1,21 @@
+{% extends "layouts/layout.html" %}
+{% block login %}
+<ul class="nav navbar-nav navbar-right" style="padding-top: 10px">
+  <li><a href="{{ url_for('login') }}">Login</a></li>
+</ul>
+{% endblock %}
+
+{% block content %}
+
+    <div class="thumbnail" id="bigthumbnail">
+        <div class="pic">
+          <img src="http://himg2.huanqiu.com/attachment2010/2013/0617/20130617023523872.jpg">
+          <hr>
+          <div class="description" style="padding-left: 30px; padding-right: 30px;">
+            <h3 style="font-weight: bold; font-size: 40px;">Description:</h3>
+            <p style="font-weight: bold">The National Basketball Association (NBA) is the major men's professional basketball league in North America, and is widely considered to be the premier men's professional basketball league in the world. It has 30 teams (29 in the United States and 1 in Canada), and is an active member of USA Basketball (USAB), which is recognized by FIBA (also known as the International Basketball Federation) as the national governing body for basketball in the United States. The NBA is one of the four major professional sports leagues in the United States and Canada. NBA players are the world's best paid athletes by average annual salary per player.</p>
+          </div>
+      </div>
+    </div>
+    <a class="btn btn-primary" href="{{url_for('count')}}">CountTuples</a>
+{% endblock %}

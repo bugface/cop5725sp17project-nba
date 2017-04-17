@@ -1,0 +1,18 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+<h2 style="text-align:center">Season</h2>
+	<div class="center" style="line-height: 40px">
+		<a href="{{ url_for('showSeason', sid ='2007-08') }}" style="text-decoration: none">2007-2008</a><br>
+		<a href="{{ url_for('showSeason', sid ='2008-09') }}" style="text-decoration: none">2008-2009</a><br>
+		<a href="{{ url_for('showSeason', sid ='2009-10') }}" style="text-decoration: none">2009-2010</a><br>
+		<a href="{{ url_for('showSeason', sid ='2010-11') }}" style="text-decoration: none">2010-2011</a><br>
+		<a href="{{ url_for('showSeason', sid ='2011-12') }}" style="text-decoration: none">2011-2012</a><br>
+		<a href="{{ url_for('showSeason', sid ='2012-13') }}" style="text-decoration: none">2012-2013</a><br>
+		<a href="{{ url_for('showSeason', sid ='2013-14') }}" style="text-decoration: none">2013-2014</a><br>
+		<a href="{{ url_for('showSeason', sid ='2014-15') }}" style="text-decoration: none">2014-2015</a><br>
+		<a href="{{ url_for('showSeason', sid ='2015-16') }}" style="text-decoration: none">2015-2016</a><br>
+	</div>
+
+
+{% endblock %}

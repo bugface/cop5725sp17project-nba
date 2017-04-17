@@ -1,0 +1,88 @@
+{% extends "cop5725_player.html" %}
+
+{% block playershow %}
+  <div style="margin-top: 5px">{{ wtf.quick_form(form1, extra_classes="navbar-form navbar-left") }}</div>
+{% endblock %}
+
+{% block content %}
+      <h2 style="text-align:center">Top 5 Player for season {{ year }}</h2>
+
+      <!--Year choosing Form which used to update the web -->
+      <div class="row">
+        <div class="col-lg-1 col-md-2" style="padding-right:10px;">
+
+         {{ wtf.quick_form(form2) }}
+
+      </div>
+      <div class="col-lg-11 col-md-10">
+      <div class="thumbnail" id="bigthumbnail" style="padding-top: 0px">
+
+<!--Div of the sl area-->
+
+          <div style="margin-top: 0px;">
+            <h2 style="text-align: center">Score Leader</h2>
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Score Leader</div>
+              <!-- Table -->
+              <table class="table">
+                <tr>
+                  <th style="width:170px">Name</th>
+                  <th style="width:170px">Stats</th>
+                </tr>
+                {% for sl in sl %}
+                <tr>
+                  <th>{{ sl.name }}</th>
+                  <th>{{ sl.stats }}</th>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+          </div>
+<!--Div of the rl area-->
+        <div>
+          <h2 style="text-align: center">Rebound Leader</h2>
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Rebound Leader</div>
+              <!-- Table -->
+              <table class="table">
+                <tr>
+                  <th style="width:170px">Name</th>
+                  <th style="width:170px">Stats</th>
+                </tr>
+                {% for rl in rl %}
+                <tr>
+                  <th>{{ rl.name }}</th>
+                  <th>{{ rl.stats }}</th>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+          </div>
+<!--                al             -->
+          <h2 style="text-align: center">Assist Leader</h2>
+          <div>
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">Assist Leader</div>
+              <!-- Table -->
+              <table class="table">
+                <tr>
+                  <th style="width:170px">Name</th>
+                  <th style="width:170px">Stats</th>
+                </tr>
+                {% for al in al %}
+                <tr>
+                  <th>{{ al.name }}</th>
+                  <th>{{ al.stats }}</th>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+          </div>
+          </div>
+        </div>
+{% endblock %}
+
+

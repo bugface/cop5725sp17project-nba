@@ -1,0 +1,7 @@
+{% extends "layouts/layout.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<div class="thumbnail" style="width:50%; margin:0 auto;">
+	{{ wtf.quick_form(form) }}
+</div>
+{% endblock %}

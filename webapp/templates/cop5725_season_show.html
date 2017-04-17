@@ -1,0 +1,81 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<h1 style="text-align:center; font-family: 'Roboto', sans-serif;">This is {{ sid }} season!</h1>
+<div class="row" style="font-family: 'Roboto', sans-serif">
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ champ_image }}">
+			<hr>
+			<div style="height: 60px">
+				<p style="padding-left: 16px">The champion of this season is <a href="{{ url_for('showteam', team_name_abbr = abbr) }}">{{ champ }}</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-8" style="margin-top: 90px">
+		<div class="thumbnail" >
+			<p style="padding-left: 16px">The champion of this season is <a href="{{ url_for('showteam', team_name_abbr = abbr) }}">{{ champ }}</a></p>
+		</div>
+	</div>
+</div>
+<div class="row" style="font-family: 'Roboto', sans-serif">
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ mvp_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The MVP of this season is <a href="{{ url_for('showplayerinfo', pid=mvpid) }}">{{ mvp }}</a></p>
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ rookie_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The best rookie of this season is <a href="{{ url_for('showplayerinfo', pid=rookieid) }}">{{ rookie }}</a></p>
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ score_leader_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The score leader is <a href="{{ url_for('showplayerinfo', pid=slid) }}">{{ sl_name }}</a>. The total points he got is {{ sl_pts }}</p>
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ reb_leader_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The rebounds leader is <a href="{{ url_for('showplayerinfo', pid=rlid) }}">{{ rl_name }}</a>. The total points he got is {{ rl_rebs }}</p>
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ ast_leader_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The assists leader is <a href="{{ url_for('showplayerinfo', pid=alid) }}">{{ al_name }}</a>. The total points he got is {{ al_ast }}</p>
+		</div>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img style="height: 400px; width: auto;" src="{{ ws_leader_image }}">
+			<hr>
+			<div style="height: 60px">
+			<p style="padding-left: 16px">The win share leader is <a href="{{ url_for('showplayerinfo', pid=wsid) }}">{{ ws_name }}</a>. The total points he got is {{ ws_ws }}</p>
+		</div>
+		</div>
+	</div>
+</div>
+<!--******************************************************************-->
+
+<a style="font-size:30px" href="{{ url_for('season') }}">back</a>
+{% endblock %}

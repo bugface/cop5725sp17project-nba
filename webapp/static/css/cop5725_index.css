@@ -1,0 +1,72 @@
+img {
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	border-radius: 5px;
+}
+
+#bigthumbnail{
+	border-radius: 10px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 30px;
+}
+
+.description{
+	margin-left: 15px;
+}
+
+h2{
+	margin-top: 10px;
+	font-family: 'Black Ops One', cursive;
+	font-size: 50px;
+}
+
+.jumbotron{
+	padding-top: 10px;
+	margin-top: 0px;
+}
+
+#container2{
+	margin-top:65px;
+}
+
+nav{
+	font-size: 23px;
+	font-family: 'Black Ops One', cursive;
+}
+
+.navbar-brand{
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+#brand{
+	color: white;
+}
+
+li{
+	font-size: 25px;
+}
+
+#thumbnail-player{
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px ;
+}
+
+#tabletr th{
+	text-align: center;
+}
+

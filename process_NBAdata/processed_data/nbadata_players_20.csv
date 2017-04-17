@@ -1,0 +1,435 @@
+ast,blk,drb,fg,fg3,fg3a,fga,ft,fta,mp,orb,pf,player_name,pts,stl,tov,trb,gameUID,date,team
+3,0,8,4,0,0,10,7,8,37:00,0,4,Cedric Maxwell,15,1,3,8,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+0,2,11,2,0,0,7,3,4,37:00,4,5,James Donaldson,7,0,3,15,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+1,2,2,14,0,0,19,8,14,36:00,4,6,Derek Smith,36,1,4,6,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+8,0,2,5,0,0,10,6,6,35:00,0,2,Franklin Edwards,16,3,2,2,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+4,1,0,9,0,0,16,2,2,32:00,1,4,Marques Johnson,20,1,2,1,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+1,1,2,2,0,0,4,1,2,24:00,1,4,Michael Cage,5,0,0,3,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+1,0,2,1,0,0,7,2,2,14:00,1,2,Jamaal Wilkes,4,1,1,3,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+1,0,0,0,0,0,2,0,0,12:00,0,2,Junior Bridgeman,0,0,1,0,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+0,1,4,1,0,0,2,1,2,6:00,0,3,Benoit Benjamin,3,0,1,4,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+0,0,0,1,0,0,2,0,0,5:00,0,0,Lancaster Gordon,2,0,1,0,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+0,0,0,0,0,0,1,0,0,2:00,0,0,Jay Murphy,0,0,0,0,52f29f95ddbd75540aba6db4,1985-10-25,Los Angeles Clippers
+3,0,1,7,0,1,18,5,7,40:00,3,3,Eddie Johnson,19,2,4,4,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+4,1,3,9,0,1,15,6,6,39:00,1,4,Reggie Theus,24,2,3,4,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+4,0,0,6,0,0,14,0,0,34:00,2,2,Larry Drew,12,0,1,2,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+2,0,10,4,0,0,8,3,6,28:00,3,5,LaSalle Thompson,11,0,3,13,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+1,0,4,5,0,0,6,3,6,20:00,3,5,Otis Thorpe,13,0,1,7,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+0,0,1,0,0,0,5,3,8,29:00,2,3,Mark Olberding,3,0,0,3,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+1,0,0,5,0,0,11,2,4,18:00,1,5,Mike Woodson,12,1,2,1,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+0,1,3,1,0,0,3,2,2,15:00,2,2,Rich Kelley,4,0,3,5,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+2,0,4,2,0,0,4,2,2,10:00,1,4,Joe Kleine,6,0,2,5,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+0,0,0,0,0,0,1,0,0,3:00,1,1,Carl Henry,0,0,1,1,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+0,0,2,0,0,0,3,0,0,2:00,1,0,David Cooke,0,0,0,3,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+0,0,0,0,0,0,0,0,0,2:00,0,0,Michael Adams,0,0,0,0,52f29f95ddbd75540aba6db4,1985-10-25,Sacramento Kings
+5,0,1,3,0,0,9,3,4,37:00,1,3,Dennis Johnson,9,0,2,2,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+3,1,8,8,0,0,18,5,8,35:00,7,4,Kevin McHale,21,0,0,15,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+4,0,6,5,0,1,16,10,12,34:00,2,2,Larry Bird,20,1,4,8,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+2,0,7,5,0,0,12,10,12,31:00,5,1,Robert Parish,20,0,3,12,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+2,0,1,7,0,0,13,2,3,31:00,1,4,Danny Ainge,16,0,1,2,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+0,0,6,3,0,0,3,1,4,23:00,1,3,Bill Walton,7,1,1,7,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+2,0,0,3,0,0,6,0,0,22:00,1,2,Jerry Sichting,6,1,1,1,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+0,1,1,1,0,1,5,2,2,13:00,2,4,Sly Williams,4,0,2,3,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+3,0,1,1,0,1,3,0,0,10:00,1,1,Scott Wedman,2,0,0,2,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+1,0,2,0,0,0,1,0,0,4:00,0,0,Sam Vincent,0,0,0,2,52f29f96ddbd75540aba6db7,1985-10-26,Boston Celtics
+3,0,1,9,0,1,20,4,4,35:00,0,1,World B. Free,22,0,0,1,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+5,0,2,7,2,2,13,2,2,29:00,0,3,John Bagley,18,0,4,2,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+0,4,5,7,0,0,11,1,6,27:00,2,5,Roy Hinson,15,1,1,7,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+1,0,1,4,0,0,12,4,7,26:00,3,4,Phil Hubbard,12,0,1,4,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+2,2,6,1,0,0,4,3,6,24:00,3,6,Mark West,5,1,1,9,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+6,0,1,3,0,2,4,0,0,21:00,0,1,Dirk Minniefield,6,1,2,1,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+0,0,4,1,0,0,6,1,1,21:00,2,2,Melvin Turpin,3,0,2,6,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+0,1,3,4,1,2,6,0,0,19:00,1,5,Edgar Jones,9,0,0,4,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+2,0,2,1,0,0,4,2,4,18:00,1,1,Ben Poquette,4,1,0,3,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+0,0,2,1,0,0,5,1,2,13:00,1,4,Ron Anderson,3,0,0,3,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+1,0,0,1,0,0,4,1,1,7:00,0,0,Johnny Davis,3,0,0,0,52f29f96ddbd75540aba6db7,1985-10-26,Cleveland Cavaliers
+9,1,2,7,0,0,9,11,12,35:00,1,0,Vern Fleming,25,1,1,3,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+3,0,5,8,0,0,15,8,9,34:00,1,2,Clark Kellogg,24,0,3,6,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+5,3,13,6,0,0,11,1,2,34:00,2,3,Herb Williams,13,0,5,15,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+1,0,7,5,0,0,7,1,1,28:00,0,3,Steve Stipanovich,11,1,4,7,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+3,0,1,6,0,0,9,9,9,21:00,1,5,Terence Stansbury,21,3,3,2,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+3,0,5,1,0,0,3,0,0,20:00,0,2,Bill Garnett,2,1,2,5,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+0,0,5,4,0,0,8,1,1,19:00,1,4,Wayman Tisdale,9,0,4,6,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+2,0,2,1,0,0,2,0,0,16:00,0,4,Quinn Buckner,2,2,2,2,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+0,0,0,4,0,0,5,0,0,12:00,0,1,Clint Richardson,8,0,0,0,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+1,0,0,0,0,0,2,0,0,12:00,0,1,Dwayne McClain,0,0,1,0,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+0,0,2,1,0,0,2,0,0,6:00,0,2,Stuart Gray,2,0,2,2,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+0,0,0,1,0,0,1,0,0,3:00,0,0,Bill Martin,2,0,0,0,52f29f98ddbd75540aba6dba,1985-10-26,Indiana Pacers
+1,0,10,3,0,0,7,6,10,36:00,3,2,Buck Williams,12,1,4,13,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+5,0,0,6,0,1,12,3,8,33:00,1,2,Otis Birdsong,15,2,2,1,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+4,0,0,1,0,0,7,2,4,27:00,1,3,Micheal Ray Richardson,4,5,3,1,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+3,0,0,3,0,0,7,0,0,24:00,0,2,Mike O'Koren,6,0,0,0,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,0,5,0,0,9,4,5,18:00,1,5,Darryl Dawkins,14,0,3,1,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,2,4,0,0,9,3,4,24:00,1,2,Mike Gminski,11,1,2,3,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+2,0,0,1,0,0,7,2,2,19:00,0,4,Darwin Cook,4,0,1,0,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+4,0,1,3,0,1,7,4,4,17:00,1,2,Kelvin Ransey,10,0,1,2,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,6,2,0,0,3,0,0,16:00,0,2,Jeff Turner,4,0,2,6,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,3,1,0,0,7,3,4,15:00,0,3,Mickey Johnson,5,1,1,3,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,1,2,0,0,4,1,2,6:00,1,0,Bobby Cattage,5,0,0,2,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,0,0,0,0,0,0,2,2,5:00,0,1,Yvon Joseph,2,0,0,0,52f29f98ddbd75540aba6dba,1985-10-26,New Jersey Nets
+0,3,8,10,0,0,20,15,18,37:00,5,3,Moses Malone,35,0,4,13,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+10,1,2,2,0,0,6,0,0,36:00,1,3,Maurice Cheeks,4,3,4,3,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+3,0,3,5,0,0,13,10,12,33:00,4,2,Julius Erving,20,4,3,7,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+0,0,9,2,0,0,5,2,2,28:00,5,4,Charles Barkley,6,0,4,14,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+0,1,2,1,0,1,7,1,1,19:00,1,3,Paul Thompson,3,0,2,3,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+0,0,4,6,0,0,13,1,1,22:00,4,4,Terry Catledge,13,0,2,8,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+3,0,1,3,0,1,7,1,2,22:00,0,1,Andrew Toney,7,2,0,1,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+4,0,4,1,0,1,4,2,2,19:00,0,5,Sedale Threatt,4,0,3,4,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+0,0,2,2,0,0,2,1,1,14:00,0,1,Bobby Jones,5,0,1,2,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+0,1,2,1,0,0,4,0,0,10:00,2,0,Clemon Johnson,2,0,0,4,52f29f99ddbd75540aba6dbd,1985-10-26,Philadelphia 76ers
+1,3,4,8,0,0,21,2,4,44:00,2,3,Patrick Ewing,18,2,3,6,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+9,0,1,5,0,0,13,2,4,41:00,1,1,Rory Sparrow,12,3,3,2,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+2,1,3,12,0,0,20,4,5,37:00,4,6,Pat Cummings,28,1,2,7,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+1,0,1,2,0,0,6,2,5,28:00,1,5,Darrell Walker,6,2,2,2,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+2,0,2,1,0,0,6,2,2,23:00,0,3,Gerald Wilkins,4,0,1,2,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+1,1,4,2,0,0,8,2,3,25:00,1,4,Ernie Grunfeld,6,0,1,5,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+2,0,1,3,1,2,9,2,2,22:00,1,4,Trent Tucker,9,1,0,2,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+0,0,3,2,0,0,5,0,0,15:00,0,1,Ken Bannister,4,2,0,3,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+1,0,0,1,0,1,4,0,0,5:00,0,1,Butch Carter,2,1,1,0,52f29f99ddbd75540aba6dbd,1985-10-26,New York Knicks
+3,0,7,8,0,2,24,6,6,41:00,6,1,Dominique Wilkins,22,0,3,13,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+2,1,3,7,0,0,11,1,2,35:00,0,1,Randy Wittman,15,0,2,3,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+8,1,4,5,1,1,13,3,4,34:00,1,2,Ray Williams,14,5,3,5,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+3,1,5,0,0,0,3,5,8,32:00,5,1,Cliff Levingston,5,0,1,10,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+3,4,3,5,0,0,6,3,4,20:00,2,4,Tree Rollins,13,0,0,5,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+0,0,1,4,0,0,8,4,7,19:00,5,4,Kevin Willis,12,2,1,6,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+0,0,7,1,0,0,3,1,2,19:00,3,4,Jon Koncak,3,1,0,10,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+1,0,1,4,0,0,8,1,1,14:00,0,1,Spud Webb,9,1,2,1,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+1,0,2,1,0,0,4,0,0,14:00,0,1,John Battle,2,0,0,2,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+0,0,3,2,0,0,5,2,2,10:00,2,6,Scott Hastings,6,0,0,5,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+0,0,0,0,0,0,1,1,2,2:00,0,0,Lorenzo Charles,1,0,0,0,52f29f9bddbd75540aba6dc0,1985-10-29,Atlanta Hawks
+7,1,1,2,0,1,8,0,1,39:00,1,3,Rory Sparrow,4,2,2,2,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+2,1,9,6,0,0,15,7,10,37:00,1,5,Patrick Ewing,19,2,6,10,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+4,0,3,11,0,0,20,6,9,36:00,4,1,Darrell Walker,28,3,0,7,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,1,4,2,0,0,7,4,7,29:00,4,4,Pat Cummings,8,0,1,8,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+1,0,2,2,0,0,7,0,0,24:00,1,2,Gerald Wilkins,4,0,2,3,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,0,0,2,0,0,4,6,6,24:00,0,2,Ernie Grunfeld,10,1,0,0,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,0,6,4,0,1,9,0,0,19:00,3,3,James Bailey,8,0,0,9,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,0,0,1,0,1,9,0,0,17:00,1,3,Trent Tucker,2,0,1,1,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,0,0,1,0,0,3,1,1,8:00,2,2,Ken Bannister,3,0,0,2,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+1,0,0,0,0,0,1,0,0,4:00,1,1,Butch Carter,0,0,0,1,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+0,0,0,0,0,0,1,1,2,3:00,1,0,Bob Thornton,1,0,0,1,52f29f9bddbd75540aba6dc0,1985-10-29,New York Knicks
+11,0,3,9,0,1,19,1,1,38:00,3,4,Michael Cooper,19,2,3,6,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+5,1,2,8,0,1,14,3,3,37:00,1,2,Byron Scott,19,0,2,3,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+4,2,2,9,0,0,12,3,4,33:00,0,3,James Worthy,21,1,3,2,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+3,0,9,9,0,0,16,2,3,28:00,0,3,Kareem Abdul-Jabbar,20,0,2,9,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+1,0,8,4,0,0,6,1,1,21:00,4,4,Kurt Rambis,9,2,3,12,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+4,0,10,8,0,0,10,1,2,28:00,6,4,A.C. Green,17,0,1,16,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+4,0,3,7,2,4,15,0,0,21:00,1,4,Mike McGee,16,1,2,4,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+3,0,7,4,0,0,6,2,2,19:00,1,4,Maurice Lucas,10,0,2,8,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+0,0,0,0,0,0,2,2,2,14:00,0,4,Mitch Kupchak,2,0,1,0,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+0,0,0,0,0,0,1,0,0,1:00,0,0,Larry Spriggs,0,0,0,0,52f29f9cddbd75540aba6dc2,1985-10-29,Los Angeles Lakers
+4,0,0,7,0,0,17,5,5,35:00,1,1,Rolando Blackman,19,3,0,1,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+4,0,3,11,0,1,22,3,4,34:00,1,1,Mark Aguirre,25,1,3,4,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+6,0,0,1,0,2,3,0,0,27:00,0,2,Brad Davis,2,0,2,0,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+4,0,5,2,0,0,5,1,2,25:00,1,4,Sam Perkins,5,0,0,6,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+1,0,2,1,0,0,4,0,0,6:00,0,2,Wallace Bryant,2,0,0,2,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+1,1,3,8,0,0,14,4,7,31:00,5,2,Kurt Nimphius,20,0,1,8,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+1,1,1,4,0,0,13,5,5,26:00,1,3,Jay Vincent,13,1,2,2,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+6,0,3,4,0,0,9,2,3,21:00,0,1,Derek Harper,10,2,2,3,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+0,0,0,4,1,1,6,1,2,15:00,2,1,Dale Ellis,10,0,1,2,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+2,0,2,0,0,0,4,4,4,14:00,0,1,Detlef Schrempf,4,1,1,2,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+0,0,1,1,0,0,2,3,3,5:00,0,2,Uwe Blab,5,0,0,1,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+0,0,0,0,0,0,0,0,0,1:00,0,0,Bill Wennington,0,0,0,0,52f29f9cddbd75540aba6dc2,1985-10-29,Dallas Mavericks
+10,1,3,6,2,2,11,4,6,38:00,2,3,Isiah Thomas,18,4,2,5,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+3,0,4,8,0,0,16,11,13,36:00,1,4,Kelly Tripucka,27,0,3,5,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+2,0,7,8,0,0,14,8,11,35:00,4,3,Bill Laimbeer,24,0,1,11,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+2,2,8,3,0,0,8,5,12,31:00,3,3,Earl Cureton,11,1,2,11,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+4,0,3,5,0,0,11,1,2,25:00,1,4,Vinnie Johnson,11,1,1,4,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+1,0,1,8,0,0,12,8,8,20:00,3,3,John Long,24,1,1,4,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+0,0,4,0,0,0,3,0,0,16:00,0,5,Kent Benson,0,0,2,4,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+0,1,3,1,0,0,3,0,0,14:00,0,3,Rick Mahorn,2,0,0,3,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+2,0,0,2,0,1,5,1,4,13:00,0,2,Joe Dumars,5,0,1,0,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+1,0,3,1,0,0,4,0,0,12:00,0,4,Tony Campbell,2,0,2,3,52f29f9cddbd75540aba6dc3,1985-10-29,Detroit Pistons
+1,0,9,6,0,0,14,7,10,40:00,4,4,Buck Williams,19,0,2,13,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+3,1,0,12,1,1,21,2,4,36:00,0,6,Otis Birdsong,27,1,2,0,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+8,1,8,7,0,1,18,1,3,34:00,1,4,Micheal Ray Richardson,15,2,5,9,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+2,0,4,4,0,1,8,3,4,30:00,3,5,Mike O'Koren,11,2,1,7,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+0,0,6,2,0,0,7,1,2,16:00,4,6,Darryl Dawkins,5,0,1,10,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+0,2,4,5,0,0,11,4,4,24:00,2,3,Mike Gminski,14,0,2,6,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+4,0,2,3,0,0,8,6,6,20:00,1,4,Mickey Johnson,12,0,2,3,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+2,0,2,0,0,0,3,0,0,15:00,1,2,Kelvin Ransey,0,1,2,3,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+0,0,6,0,0,0,2,2,2,13:00,1,4,Jeff Turner,2,0,3,7,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+2,0,0,1,0,2,6,0,0,11:00,1,1,Darwin Cook,2,0,0,1,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+0,0,0,0,0,0,0,0,0,1:00,0,0,Bobby Cattage,0,0,0,0,52f29f9cddbd75540aba6dc3,1985-10-29,New Jersey Nets
+5,0,1,10,0,0,25,7,8,42:00,4,2,Orlando Woolridge,27,1,2,5,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+12,1,7,6,0,1,13,0,0,42:00,1,4,Kyle Macy,12,2,1,8,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+0,0,10,2,0,0,8,2,2,32:00,1,5,Sidney Green,6,1,1,11,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+0,2,5,4,0,0,5,0,1,27:00,2,4,Jawann Oldham,8,0,4,7,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+2,0,2,6,0,0,10,0,0,18:00,0,1,Michael Jordan,12,0,1,2,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+2,1,4,4,0,0,6,8,11,25:00,2,1,Dave Corzine,16,1,2,6,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+1,0,0,7,0,0,8,4,4,24:00,0,2,Gene Banks,18,1,2,0,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+0,1,1,4,0,0,10,0,0,12:00,0,2,George Gervin,8,0,0,1,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+1,0,2,0,0,0,5,0,0,12:00,3,4,Charles Oakley,0,0,1,5,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+1,0,1,2,0,0,2,0,0,6:00,0,2,Billy McKinney,4,0,0,1,52f29f9dddbd75540aba6dc4,1985-10-29,Chicago Bulls
+4,0,3,10,0,0,19,2,2,41:00,3,3,Terry Teagle,22,0,2,6,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+2,0,4,2,0,0,9,2,2,39:00,1,3,Peter Thibeaux,6,0,2,5,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+0,1,6,4,0,1,12,6,8,38:00,4,3,Larry Smith,14,0,1,10,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+7,0,3,12,4,5,23,4,7,35:00,1,4,Sleepy Floyd,32,2,8,4,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+4,1,11,5,0,0,10,6,7,27:00,1,6,Joe Barry Carroll,16,0,5,12,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+0,0,6,0,0,0,3,0,0,21:00,1,3,Jerome Whitehead,0,0,1,7,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+4,0,1,3,0,0,7,0,0,20:00,0,1,Geoff Huston,6,1,2,1,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+2,1,4,4,0,0,6,1,2,19:00,2,2,Pete Verhoeven,9,0,0,6,52f29f9dddbd75540aba6dc4,1985-10-29,Golden State Warriors
+2,3,8,6,0,0,14,1,1,32:00,4,4,Hakeem Olajuwon,13,3,2,12,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+4,0,5,3,0,0,5,0,0,30:00,0,3,Rodney McCray,6,0,4,5,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+1,1,8,8,0,0,13,8,10,28:00,4,2,Ralph Sampson,24,0,0,12,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+7,0,0,4,0,0,8,6,7,28:00,0,0,John Lucas,14,3,4,0,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+2,0,1,7,0,0,7,3,4,21:00,0,1,Lewis Lloyd,17,0,2,1,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+2,0,2,1,0,0,4,0,0,21:00,0,3,Jim Petersen,2,0,1,2,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+3,0,3,5,0,0,9,2,2,18:00,2,2,Robert Reid,12,1,3,5,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+1,1,1,2,0,0,4,2,2,17:00,1,2,Mitchell Wiggins,6,1,2,2,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+4,0,0,1,0,0,2,1,2,16:00,0,2,Allen Leavell,3,1,1,0,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+0,1,2,1,0,0,5,0,0,11:00,2,1,Granville Waiters,2,0,0,4,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+0,0,0,3,0,0,6,0,0,10:00,0,0,Steve Harris,6,0,3,0,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+0,0,0,2,0,0,5,2,2,8:00,1,0,Craig Ehlo,6,0,1,1,52f29f9dddbd75540aba6dc5,1985-10-29,Houston Rockets
+1,1,7,8,1,1,17,4,5,38:00,3,4,Tom Chambers,21,3,5,10,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+3,0,2,4,0,1,11,0,0,31:00,1,3,Al Wood,8,1,1,3,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+5,1,2,4,0,0,11,4,6,30:00,1,4,Jack Sikma,12,2,6,3,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+2,1,1,4,0,0,7,0,0,23:00,1,2,Gerald Henderson,8,1,2,2,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+0,0,1,0,0,1,2,0,0,15:00,0,0,Danny Vranes,0,1,2,1,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+2,0,4,8,0,0,15,4,6,33:00,2,5,Xavier McDaniel,20,1,2,6,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+4,0,0,4,1,1,7,1,1,20:00,0,1,Danny Young,10,1,0,0,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+0,1,2,1,0,0,1,3,4,15:00,1,0,George Johnson,5,0,0,3,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+2,0,0,2,1,1,5,0,0,13:00,0,3,Ricky Sobers,5,0,0,0,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+1,0,0,3,0,1,8,2,2,9:00,1,0,Michael Phelps,8,6,1,1,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+1,0,0,1,0,0,2,0,0,9:00,2,1,Alex Stivrins,2,0,1,2,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+0,1,1,0,0,0,1,0,0,4:00,0,1,Brian Martin,0,0,0,1,52f29f9dddbd75540aba6dc5,1985-10-29,Seattle SuperSonics
+10,0,1,7,0,0,17,3,3,38:00,1,2,Franklin Edwards,17,2,5,2,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+2,2,11,5,0,0,7,4,4,34:00,2,3,James Donaldson,14,1,1,13,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+6,1,3,12,0,0,20,4,5,32:00,1,1,Derek Smith,28,1,1,4,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+4,0,1,7,0,0,10,2,2,26:00,1,3,Marques Johnson,16,0,2,2,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+2,1,1,3,0,0,5,5,10,24:00,3,4,Cedric Maxwell,11,0,1,4,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+2,0,3,1,0,0,5,0,0,24:00,2,3,Michael Cage,2,1,2,5,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+4,0,2,4,0,0,6,2,2,22:00,2,3,Jamaal Wilkes,10,1,1,4,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+3,0,0,2,0,0,6,0,0,16:00,0,1,Junior Bridgeman,4,1,0,0,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+1,0,4,2,0,0,6,5,8,14:00,3,0,Benoit Benjamin,9,0,0,7,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+1,0,0,3,0,1,9,2,2,10:00,0,3,Lancaster Gordon,8,0,1,0,52f29f9eddbd75540aba6dc6,1985-10-29,Los Angeles Clippers
+0,0,1,6,0,0,17,4,5,38:00,4,3,Kiki Vandeweghe,16,0,4,5,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+4,2,10,10,0,0,18,3,4,34:00,1,1,Sam Bowie,23,0,2,11,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+6,0,2,5,0,0,10,5,7,33:00,5,4,Mychal Thompson,15,3,3,7,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+10,2,3,7,0,1,18,2,2,32:00,0,5,Clyde Drexler,16,1,3,3,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+9,0,1,7,0,0,7,1,2,31:00,2,1,Darnell Valentine,15,3,1,3,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+0,0,3,4,1,3,12,0,0,24:00,1,1,Jim Paxson,9,2,1,4,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+0,0,4,2,0,0,5,1,4,20:00,1,3,Kenny Carr,5,0,0,5,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+4,0,2,4,0,2,7,0,0,16:00,1,5,Terry Porter,8,0,0,3,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+0,0,2,2,0,0,3,0,0,9:00,2,4,Caldwell Jones,4,0,3,4,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+0,0,0,1,0,0,2,0,0,3:00,1,0,Jerome Kersey,2,0,1,1,52f29f9eddbd75540aba6dc6,1985-10-29,Portland Trail Blazers
+12,1,1,12,0,0,16,4,6,41:00,4,6,Paul Pressey,28,3,6,5,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+8,0,0,9,0,1,13,5,6,37:00,1,4,Sidney Moncrief,23,0,1,1,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+3,1,10,8,0,0,15,1,2,36:00,0,4,Terry Cummings,17,0,2,10,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+5,0,1,5,1,2,8,1,2,28:00,0,2,Craig Hodges,12,2,0,1,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+0,3,7,3,0,0,7,1,2,23:00,1,4,Alton Lister,7,2,1,8,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+2,0,0,6,0,1,11,0,0,27:00,0,4,Ricky Pierce,12,0,4,0,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+1,0,0,3,2,2,4,0,0,13:00,0,1,Jeff Lamp,8,0,0,0,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+0,0,2,2,0,0,5,0,0,12:00,3,1,Paul Mokeski,4,0,1,5,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+0,0,1,1,0,0,3,2,2,12:00,0,3,Randy Breuer,4,1,3,1,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+1,0,0,2,0,0,4,0,0,11:00,0,0,Kenny Fields,4,0,0,0,52f29f9eddbd75540aba6dc7,1985-10-29,Milwaukee Bucks
+5,3,6,9,1,2,16,2,7,37:00,6,2,Charles Barkley,21,2,3,12,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+1,0,3,8,0,0,13,5,7,34:00,5,4,Moses Malone,21,0,2,8,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+8,0,1,2,0,0,7,2,2,31:00,0,1,Maurice Cheeks,6,3,2,1,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+2,1,4,6,0,0,11,7,7,29:00,2,2,Julius Erving,19,1,3,6,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+0,0,0,0,0,1,3,2,2,8:00,1,1,Paul Thompson,2,0,2,1,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+4,0,5,11,0,1,18,2,3,28:00,2,2,Sedale Threatt,24,3,1,7,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+0,0,6,5,0,0,10,1,2,17:00,2,3,Terry Catledge,11,0,1,8,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+3,0,1,1,0,1,2,0,0,15:00,0,0,Leon Wood,2,0,0,1,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+1,0,1,3,0,0,7,1,4,14:00,1,1,Andrew Toney,7,0,3,2,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+0,0,1,1,0,0,5,2,2,14:00,1,3,Clemon Johnson,4,1,1,2,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+2,0,1,0,0,0,1,0,0,13:00,0,1,Bobby Jones,0,0,0,1,52f29f9eddbd75540aba6dc7,1985-10-29,Philadelphia 76ers
+8,3,4,11,0,0,24,12,16,43:00,2,2,Alex English,34,0,9,6,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+4,0,5,1,0,0,5,6,6,30:00,0,3,T.R. Dunn,8,7,3,5,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+4,0,0,8,0,0,16,5,6,29:00,4,1,Calvin Natt,21,0,0,4,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+0,4,3,6,0,0,11,3,4,21:00,5,4,Wayne Cooper,15,1,1,8,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+5,0,1,6,0,0,10,0,0,16:00,0,6,Fat Lever,12,1,3,1,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+3,0,1,3,0,0,9,1,2,25:00,4,4,Elston Turner,7,3,4,5,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+1,0,2,9,1,4,17,4,4,22:00,0,3,Mike Evans,23,7,3,2,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+0,0,3,2,0,0,8,4,6,18:00,3,5,Bill Hanzlik,8,1,2,6,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+0,0,4,3,0,0,6,3,4,17:00,5,4,Blair Rasmussen,9,0,3,9,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+0,0,2,0,0,0,1,2,2,10:00,1,4,Danny Schayes,2,0,0,3,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+1,0,0,0,0,0,1,2,2,5:00,0,1,Willie White,2,0,1,0,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+0,0,2,0,0,0,0,1,2,4:00,0,2,Pete Williams,1,0,1,2,52f29f9fddbd75540aba6dc8,1985-10-29,Denver Nuggets
+8,0,0,6,0,0,10,4,6,31:00,0,3,Jay Humphries,16,2,5,0,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+6,0,1,6,0,0,14,3,5,30:00,0,4,Walter Davis,15,0,7,1,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+2,0,4,4,0,0,7,2,2,24:00,5,5,Mike Sanders,10,4,2,9,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+1,1,5,7,0,0,8,5,8,23:00,3,2,Charles Jones,19,2,2,8,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+1,0,3,3,0,0,7,3,4,17:00,1,3,James Edwards,9,1,7,4,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+3,3,2,8,0,0,13,6,13,23:00,2,3,Larry Nance,22,1,3,4,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+1,0,2,4,0,0,10,1,2,18:00,0,4,Devin Durrant,9,1,2,2,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+4,0,4,0,0,0,3,5,6,17:00,1,4,Alvan Adams,5,0,2,5,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+0,0,2,1,0,1,3,1,2,17:00,0,2,Mike Holton,3,0,0,2,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+2,2,4,3,0,0,5,4,4,14:00,0,6,Ed Pinckney,10,0,3,4,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+0,0,1,2,0,0,5,1,1,14:00,0,3,Charles Pittman,5,1,3,1,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+2,0,2,0,0,0,0,4,4,12:00,2,2,Rick Robey,4,1,3,4,52f29f9fddbd75540aba6dc8,1985-10-29,Phoenix Suns
+4,1,5,9,0,0,17,5,5,35:00,3,4,Alvin Robertson,23,7,2,8,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+3,0,3,9,0,0,22,4,4,35:00,4,1,Mike Mitchell,22,0,3,7,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+2,3,7,4,0,0,9,7,9,33:00,3,2,Artis Gilmore,15,0,2,10,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+5,1,0,1,0,1,3,2,4,21:00,0,2,Wes Matthews,4,1,3,0,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+0,0,1,0,0,0,2,3,4,20:00,0,5,Marc Iavaroni,3,0,1,1,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+0,0,12,6,0,0,11,4,6,32:00,8,5,Dave Greenwood,16,0,2,20,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+6,0,1,1,0,0,4,3,4,15:00,1,2,Jon Sundvold,5,0,1,2,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+0,0,1,4,0,0,8,2,2,13:00,3,2,Alfredrick Hughes,10,2,1,4,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+1,0,1,2,0,0,4,0,0,13:00,2,4,Jeff Cook,4,0,1,3,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+5,0,1,3,0,0,3,4,6,12:00,0,3,Johnny Moore,10,0,1,1,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+0,0,0,4,0,0,6,4,5,9:00,0,1,Steve Johnson,12,0,0,0,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+0,1,1,0,0,0,0,0,0,2:00,0,0,Mike Brittain,0,0,1,1,52f29f9fddbd75540aba6dc9,1985-10-29,San Antonio Spurs
+3,0,4,11,0,0,18,8,10,36:00,4,2,Adrian Dantley,30,0,4,8,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+6,1,1,5,0,0,8,6,7,35:00,1,3,Bob Hansen,16,0,2,2,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+5,0,2,1,0,0,5,2,2,29:00,0,2,Rickey Green,4,2,6,2,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+0,0,2,8,0,0,16,5,5,26:00,2,4,Thurl Bailey,21,0,0,4,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+1,3,3,4,0,0,10,0,0,26:00,2,5,Mark Eaton,8,0,3,5,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+1,1,5,6,0,0,11,2,5,23:00,1,4,Karl Malone,14,1,1,6,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+5,0,1,3,0,0,9,0,1,19:00,1,4,John Stockton,6,2,1,2,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+1,1,4,1,0,0,3,0,2,15:00,1,2,Jeff Wilkins,2,0,0,5,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+0,1,0,1,0,0,1,0,0,10:00,0,1,Steve Hayes,2,0,1,0,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+3,1,2,1,0,0,4,3,6,9:00,0,4,Carey Scurry,5,0,0,2,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+2,0,0,0,0,0,3,0,0,7:00,0,2,Fred Roberts,0,2,0,0,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+0,0,1,2,0,0,2,0,2,5:00,0,0,Pace Mannion,4,0,0,1,52f29f9fddbd75540aba6dc9,1985-10-29,Utah Jazz
+4,1,1,7,0,1,15,10,11,43:00,0,2,Dennis Johnson,24,1,3,1,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+3,1,8,11,0,0,20,3,6,39:00,2,2,Kevin McHale,25,0,3,10,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+2,3,6,8,0,0,14,4,4,36:00,7,1,Robert Parish,20,2,4,13,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+5,0,5,1,0,1,7,2,2,28:00,1,3,Danny Ainge,4,1,2,6,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+5,3,8,7,0,0,8,8,8,27:00,0,5,Larry Bird,22,1,5,8,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+1,1,4,4,0,0,8,1,2,20:00,0,4,Scott Wedman,9,0,0,4,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+1,0,0,1,0,0,3,0,0,13:00,1,2,Jerry Sichting,2,0,0,1,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+4,0,0,1,0,0,2,1,2,11:00,0,1,Rick Carlisle,3,2,0,0,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+2,0,1,0,0,0,2,3,4,10:00,2,5,Bill Walton,3,1,5,3,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+0,0,0,2,0,0,3,0,0,6:00,0,3,Greg Kite,4,0,0,0,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+0,0,0,0,0,0,2,1,2,6:00,2,2,Sly Williams,1,0,0,2,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+0,0,0,0,0,0,0,0,0,1:00,0,0,Sam Vincent,0,0,0,0,52f29fa0ddbd75540aba6dca,1985-10-30,Boston Celtics
+4,0,1,6,0,3,16,6,9,39:00,0,3,Sidney Moncrief,18,1,2,1,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+6,1,4,3,0,1,12,7,8,38:00,2,4,Paul Pressey,13,3,5,6,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+2,0,7,7,0,0,16,3,4,37:00,5,6,Terry Cummings,17,3,1,12,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+1,1,6,5,0,0,10,4,6,25:00,2,5,Alton Lister,14,0,2,8,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+0,0,0,3,1,1,7,0,0,23:00,0,3,Craig Hodges,7,0,3,0,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+4,1,2,2,0,0,7,2,2,28:00,2,3,Randy Breuer,6,3,2,4,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+1,0,2,12,0,1,17,2,4,24:00,4,5,Ricky Pierce,26,1,2,6,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+2,0,1,1,0,0,5,0,0,15:00,0,2,Jeff Lamp,2,1,0,1,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+1,0,0,1,1,1,2,0,0,5:00,0,2,Bryan Warrick,3,1,2,0,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+0,0,0,0,0,0,0,0,0,3:00,0,0,Kenny Fields,0,0,0,0,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+0,0,1,0,0,0,0,0,0,2:00,0,0,Paul Mokeski,0,0,1,1,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+0,0,0,0,0,0,0,0,0,1:00,0,0,Jerry Reynolds,0,0,0,0,52f29fa0ddbd75540aba6dca,1985-10-30,Milwaukee Bucks
+4,3,17,9,0,0,18,2,3,55:00,6,4,Buck Williams,20,1,4,23,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+11,0,10,15,0,2,31,8,12,54:00,1,5,Micheal Ray Richardson,38,9,3,11,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,0,0,12,0,0,26,4,6,48:00,2,4,Otis Birdsong,28,1,3,2,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,3,9,0,0,0,5,8,8,33:00,4,3,Mike Gminski,8,0,0,13,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,0,2,5,0,0,11,4,5,30:00,0,6,Mike O'Koren,14,1,2,2,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,0,5,10,0,0,12,5,6,40:00,4,5,Darryl Dawkins,25,0,1,9,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,0,0,0,0,0,2,4,4,16:00,0,3,Mickey Johnson,4,1,3,0,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+2,0,1,3,0,0,8,0,0,15:00,1,0,Darwin Cook,6,1,1,2,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+0,0,3,1,0,1,5,0,0,15:00,0,5,Jeff Turner,2,0,1,3,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+0,0,0,0,0,0,3,2,2,9:00,0,1,Kelvin Ransey,2,0,2,0,52f29fa0ddbd75540aba6dcb,1985-10-30,New Jersey Nets
+9,0,8,8,0,0,16,6,7,53:00,3,3,Vern Fleming,22,1,7,11,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+0,3,6,12,0,1,22,4,6,51:00,3,4,Herb Williams,28,0,5,9,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+5,1,5,5,0,0,16,8,8,51:00,3,4,Steve Stipanovich,18,4,1,8,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+3,1,3,8,0,0,16,6,6,31:00,1,6,Terence Stansbury,22,1,0,4,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+2,1,7,9,0,0,16,3,5,30:00,2,6,Clark Kellogg,21,1,6,9,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+1,0,5,3,0,0,7,4,4,34:00,3,3,Clint Richardson,10,1,2,8,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+0,0,3,2,0,0,9,5,6,29:00,2,3,Wayman Tisdale,9,0,0,5,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+2,0,0,0,0,0,4,5,6,17:00,1,1,Bill Garnett,5,0,0,1,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+2,0,1,1,0,0,3,0,0,11:00,0,3,Quinn Buckner,2,1,1,1,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+0,0,1,0,0,0,0,1,2,4:00,1,1,Stuart Gray,1,0,0,2,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+0,0,0,0,0,0,0,0,0,4:00,0,1,Bill Martin,0,0,0,0,52f29fa0ddbd75540aba6dcb,1985-10-30,Indiana Pacers
+1,0,7,10,0,0,20,11,12,34:00,7,2,Moses Malone,31,1,1,14,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+13,2,1,4,0,0,7,5,6,32:00,0,1,Maurice Cheeks,13,1,2,1,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+3,1,0,11,0,0,19,2,5,29:00,2,5,Julius Erving,24,0,1,2,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+4,0,2,2,0,0,5,6,7,19:00,2,6,Charles Barkley,10,0,2,4,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+0,1,0,0,0,0,1,0,0,4:00,0,0,Paul Thompson,0,0,0,0,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+6,1,3,6,0,1,17,0,0,41:00,1,4,Sedale Threatt,12,2,4,4,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+1,0,10,8,0,0,18,3,7,38:00,4,5,Terry Catledge,19,1,1,14,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+2,0,1,4,0,1,7,0,0,22:00,0,2,Leon Wood,8,2,0,1,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+2,0,2,1,0,0,2,2,2,20:00,0,5,Bobby Jones,4,1,1,2,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+0,2,4,5,0,0,8,1,2,19:00,2,1,Clemon Johnson,11,0,0,6,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+1,0,0,0,0,0,4,0,0,7:00,0,0,Andrew Toney,0,0,0,0,52f29fa1ddbd75540aba6dcc,1985-10-30,Philadelphia 76ers
+6,0,2,7,0,0,15,6,7,39:00,3,4,Kelly Tripucka,20,3,2,5,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+14,0,3,7,0,0,16,2,3,37:00,0,6,Isiah Thomas,16,0,2,3,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+4,2,0,12,0,0,23,2,2,34:00,2,4,Vinnie Johnson,26,0,0,2,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+2,0,7,6,0,1,11,0,0,30:00,2,4,Bill Laimbeer,12,0,1,9,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+2,1,8,0,0,0,3,0,2,21:00,1,6,Earl Cureton,0,0,3,9,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+1,1,11,6,0,0,9,7,9,32:00,5,6,Rick Mahorn,19,1,4,16,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+1,0,1,3,0,0,11,1,2,18:00,1,1,John Long,7,1,1,2,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+3,0,1,3,0,0,5,3,3,17:00,0,0,Joe Dumars,9,0,2,1,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+0,0,5,4,0,0,7,0,0,17:00,3,5,Kent Benson,8,1,2,8,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+1,0,3,4,0,0,9,0,0,14:00,3,0,Tony Campbell,8,0,2,6,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+0,0,0,0,0,0,1,0,0,6:00,0,0,Mike Gibson,0,0,0,0,52f29fa1ddbd75540aba6dcc,1985-10-30,Detroit Pistons
+1,0,3,11,0,0,23,11,13,43:00,3,3,Adrian Dantley,33,3,4,6,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+6,0,4,6,0,0,12,3,4,36:00,2,4,Bob Hansen,15,3,2,6,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+9,1,2,2,0,0,5,2,2,31:00,1,2,John Stockton,6,3,3,3,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,4,5,0,0,0,4,0,0,24:00,1,5,Mark Eaton,0,0,2,6,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+2,0,3,6,0,0,9,1,3,23:00,3,4,Karl Malone,13,1,2,6,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+1,0,3,4,0,0,10,3,3,28:00,2,1,Thurl Bailey,11,2,1,5,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,0,5,3,0,0,8,2,2,22:00,0,3,Jeff Wilkins,8,0,2,5,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+1,0,0,3,0,0,8,5,8,18:00,0,1,Rickey Green,11,4,1,0,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,0,1,0,0,0,2,4,4,9:00,0,0,Fred Roberts,4,0,0,1,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,0,1,0,0,0,0,1,2,3:00,0,0,Steve Hayes,1,0,0,1,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,0,1,0,0,0,0,0,0,3:00,0,0,Carey Scurry,0,0,0,1,52f29fa1ddbd75540aba6dcd,1985-10-30,Utah Jazz
+0,1,4,10,0,0,25,0,0,34:00,1,4,Mike Mitchell,20,1,3,5,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+1,1,6,5,0,0,8,10,14,30:00,3,5,Artis Gilmore,20,0,2,9,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+3,0,3,1,0,0,6,2,2,30:00,2,3,Alvin Robertson,4,4,7,5,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+1,0,2,1,0,0,5,3,4,21:00,0,4,Marc Iavaroni,5,0,2,2,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+6,0,3,1,0,0,2,0,0,16:00,0,1,Wes Matthews,2,1,3,3,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+1,3,4,8,0,0,10,1,1,28:00,1,5,Dave Greenwood,17,0,2,5,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+3,0,5,2,0,0,5,1,1,19:00,0,0,Alfredrick Hughes,5,1,1,5,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+5,0,3,5,0,0,7,0,0,17:00,0,2,Jon Sundvold,10,0,2,3,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+1,4,4,5,0,0,8,0,0,16:00,2,3,Steve Johnson,10,0,1,6,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+4,0,1,3,0,1,7,1,2,16:00,1,2,Johnny Moore,7,1,3,2,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+3,0,0,0,0,0,0,0,0,13:00,0,2,Jeff Cook,0,0,0,0,52f29fa1ddbd75540aba6dcd,1985-10-30,San Antonio Spurs
+2,0,3,6,0,0,19,5,5,37:00,0,3,Alex English,17,2,4,3,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+2,1,4,7,0,0,11,1,1,33:00,3,1,Fat Lever,15,0,2,7,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+0,0,4,4,0,0,8,3,4,27:00,1,5,Calvin Natt,11,1,2,5,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+2,0,3,3,0,0,6,0,0,26:00,1,4,T.R. Dunn,6,4,1,4,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+2,2,1,3,0,0,8,0,0,24:00,1,2,Wayne Cooper,6,0,2,2,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+3,0,2,3,0,0,7,2,2,28:00,0,3,Bill Hanzlik,8,0,3,2,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+1,1,7,4,0,0,8,4,5,21:00,4,2,Danny Schayes,12,2,2,11,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+5,0,2,2,0,0,3,0,0,19:00,2,4,Elston Turner,4,0,3,4,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+2,0,1,3,2,5,8,1,2,16:00,0,3,Mike Evans,9,1,1,1,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+0,0,0,0,0,0,1,2,2,4:00,0,1,Pete Williams,2,1,1,0,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+0,0,1,0,0,0,1,0,0,3:00,1,0,Blair Rasmussen,0,0,1,2,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+0,0,0,0,0,0,2,0,0,2:00,0,0,Willie White,0,0,0,0,52f29fa2ddbd75540aba6dce,1985-10-31,Denver Nuggets
+1,0,3,6,0,0,15,3,6,40:00,3,3,Tom Chambers,15,0,2,6,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+4,1,11,5,0,0,9,8,8,36:00,2,3,Jack Sikma,18,2,5,13,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+1,0,3,3,0,0,9,2,2,33:00,1,3,Gerald Henderson,8,1,3,4,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+1,0,2,4,0,1,9,0,0,32:00,0,2,Al Wood,8,1,5,2,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+1,0,3,5,0,0,9,0,2,25:00,2,6,Xavier McDaniel,10,1,2,5,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+1,0,2,2,0,1,6,0,0,19:00,0,0,Danny Young,4,0,2,2,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+3,0,3,1,0,0,2,0,0,18:00,2,4,Danny Vranes,2,0,1,5,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+1,0,0,0,0,2,3,5,6,16:00,0,1,Ricky Sobers,5,0,5,0,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+0,4,2,0,0,0,1,0,0,11:00,0,4,George Johnson,0,0,0,2,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+0,0,0,0,0,0,1,1,4,4:00,1,1,Alex Stivrins,1,0,2,1,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+0,0,0,0,0,0,3,0,2,4:00,0,0,Michael Phelps,0,0,1,0,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+0,0,1,1,0,0,1,0,0,2:00,1,0,Brian Martin,2,0,0,2,52f29fa2ddbd75540aba6dce,1985-10-31,Seattle SuperSonics
+5,0,1,6,0,0,15,2,2,38:00,3,2,Rolando Blackman,14,1,2,4,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+5,1,6,15,0,0,27,12,15,36:00,1,5,Mark Aguirre,42,2,2,7,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+0,2,8,5,0,1,13,2,2,30:00,3,4,Sam Perkins,12,1,3,11,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+5,1,0,4,1,5,8,1,1,29:00,0,0,Brad Davis,10,2,2,0,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+1,0,6,2,0,0,7,0,0,25:00,3,2,Wallace Bryant,4,0,0,9,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+5,0,3,5,0,0,7,4,4,24:00,0,0,Derek Harper,14,0,1,3,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+2,0,2,5,0,0,10,6,6,23:00,0,2,Jay Vincent,16,0,4,2,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+2,1,4,1,0,0,1,4,4,23:00,1,1,Kurt Nimphius,6,0,1,5,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+0,0,0,0,0,0,1,1,2,10:00,1,1,Detlef Schrempf,1,0,1,1,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+0,0,0,0,0,0,2,0,0,2:00,1,0,Dale Ellis,0,0,0,1,52f29fa7ddbd75540aba6dda,1985-11-02,Dallas Mavericks
+5,0,6,8,0,1,24,2,4,38:00,2,5,Eddie Johnson,18,0,2,8,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+7,0,2,7,0,1,16,2,2,37:00,2,2,Reggie Theus,16,2,3,4,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+3,0,4,10,0,0,13,4,7,36:00,0,2,Otis Thorpe,24,1,1,4,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+12,0,1,10,1,3,21,0,0,36:00,1,5,Larry Drew,21,4,1,2,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+1,0,6,7,0,0,10,0,0,21:00,2,5,Joe Kleine,14,0,3,8,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+1,2,7,4,0,0,6,0,0,27:00,1,5,LaSalle Thompson,8,0,1,8,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+4,2,0,5,0,0,10,0,0,23:00,1,1,Mike Woodson,10,1,2,1,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+6,0,2,1,0,0,2,0,0,22:00,4,4,Mark Olberding,2,0,1,6,52f29fa7ddbd75540aba6dda,1985-11-02,Sacramento Kings
+3,2,1,5,0,1,12,2,4,36:00,1,4,James Worthy,12,1,1,2,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+3,0,5,14,0,0,19,3,4,33:00,2,5,Kareem Abdul-Jabbar,31,1,3,7,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+13,0,3,2,0,1,6,3,6,33:00,0,1,Magic Johnson,7,1,4,3,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+1,0,2,7,0,0,12,2,2,29:00,0,1,Byron Scott,16,0,0,2,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+0,0,8,1,0,0,2,0,0,19:00,1,3,Kurt Rambis,2,0,2,9,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+0,1,1,2,0,0,3,4,4,22:00,1,3,A.C. Green,8,1,0,2,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+1,0,0,5,1,1,9,3,3,19:00,1,1,Mike McGee,14,0,0,1,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+2,0,2,3,0,0,7,0,0,19:00,0,3,Maurice Lucas,6,0,3,2,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+0,0,2,7,0,0,8,1,2,15:00,3,2,Mitch Kupchak,15,0,1,5,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+2,0,3,3,1,3,6,2,2,15:00,0,1,Michael Cooper,9,0,1,3,52f29fa7ddbd75540aba6ddb,1985-11-02,Los Angeles Lakers
+1,1,7,3,0,0,6,3,7,40:00,3,4,Larry Smith,9,1,2,10,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+6,3,8,12,0,0,22,4,4,34:00,2,3,Joe Barry Carroll,28,3,2,10,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+0,2,3,6,0,0,15,4,4,32:00,1,4,Terry Teagle,16,0,1,4,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+11,0,3,7,2,3,10,2,2,31:00,0,5,Sleepy Floyd,18,1,4,3,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+1,1,0,9,0,0,14,0,0,29:00,0,5,Peter Thibeaux,18,0,3,0,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+0,2,2,5,0,0,8,1,2,26:00,2,3,Pete Verhoeven,11,1,1,4,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+3,0,0,1,0,0,2,1,2,20:00,0,3,Geoff Huston,3,0,1,0,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+0,0,2,3,0,0,6,1,2,14:00,1,1,Jerome Whitehead,7,0,1,3,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+3,0,0,2,0,0,3,2,4,13:00,0,0,Lester Conner,6,0,0,0,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors
+0,0,0,0,0,0,0,0,0,1:00,0,0,Guy Williams,0,0,0,0,52f29fa7ddbd75540aba6ddb,1985-11-02,Golden State Warriors

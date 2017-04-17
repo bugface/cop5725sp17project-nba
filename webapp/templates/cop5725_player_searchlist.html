@@ -1,0 +1,9 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+	<h2 syle="text-align: center">Search Results</h2>
+	{% for player in matched %}
+		<a  style="text-align: center text-weight: bold" href="{{ url_for('showplayerinfo', pid = player.pid) }}">{{ player.name }}</a>
+		<hr>
+	{% endfor %}
+{% endblock %}

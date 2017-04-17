@@ -1,0 +1,42 @@
+{% extends "layouts/layout.html" %}
+{% block content %}
+<div class="row">	
+		<div class="col-lg-12 thumbnail">
+			<h2 style="text-align: center">West Conference</h2>
+		{% for data in json_data %}
+		{% if data.conference == "W" %}
+			<div class="col-lg-2">
+				<div class="thumbnail">
+					<a href="/team/show/{{data.team_name_abbr}}" target="_black">
+						<img src="{{ data.logo }}">
+					</a>
+					<hr>
+					<div style="height: 30px">
+					<p style="padding-left: 18px; font-size: 16px; font-weight:bold;">{{ data.name }}</p>
+				</div>
+				</div>
+			</div>
+		{% endif %}
+		{% endfor %}
+		</div>
+		<div class="col-lg-12 thumbnail">
+			<h2 style="text-align: center">East Conference</h2>
+		{% for data in json_data %}
+		{% if data.conference == "E" %} 
+			<div class="col-lg-2">
+				<div class="thumbnail">
+					<a href="/team/show/{{data.team_name_abbr}}" target="_black">
+						<img src="{{ data.logo }}">
+					</a>
+					<hr>
+					<div style="height: 30px">
+					<p style="padding-left: 18px; font-size: 16px; font-weight:bold;">{{ data.name }}</p>
+				</div>
+				</div>
+			</div>
+		{% endif %}	
+		{% endfor %}
+		</div>
+	
+</div>
+{% endblock %}

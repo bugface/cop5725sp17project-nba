@@ -1,0 +1,253 @@
+{% extends "layouts/layout.html" %}
+
+{% block content %}
+<script src="/static/js/Chart.min.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
+
+    <h2 style="text-align:center">{{info.name}}</h2>
+		<div class="thumbnail" id="thumbnail-player">
+				<!--Table-->
+        <!--Table for player data-->
+          <div align="center">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4" style="width: 300px; height: auto;">
+                  <div class="thumbnail" style=" margin-left: 20px ">
+                      <img src="{{ "/"~info.headshot }}" alt="{{ info.name }}">
+                  </div>
+              </div>
+
+               <div class="col-lg-8 col-sm-8" style="font-size: 17px; font-weight: bold">
+                <table class="table table-bordered">
+                 <tbody>
+                <tr align="center">
+                  <td width="80" height="20">Birthday</td>
+                  <td width="197">{{ info.birthday }}</td>
+                  <td width="80">Age</td>
+                  <td width="197">{{ info.age }}</td></tr>
+                <tr align="center">
+                  <td height="20">Position</td>
+                  <td>{{ info.position }}</td>
+                  <td>College</td>
+                  <td>{{ info.college }}</td></tr>
+                  <tr  align="center">
+                  <td height="20">Height</td>
+                  <td>{{ info.height }}</td>
+                  <td>Weight</td>
+                  <td>{{ info.weight }}</td></tr>
+                <tr  align="center">
+                  <td height="20">Rookie Year</td>
+                  <td>{{ info.rookie_year }}</td>
+                </tr>
+              </tbody></table>
+                </div>
+                </div>
+              </div>
+		</div>
+
+  <!--                    total data                  -->
+<h2 style="text-align: center">Total</h2>
+      <div class="thumbnail" id="thumbnail-player" style="text-align: center">
+        <table class="table">
+            <thead>
+              <tr id = "tabletr">
+                <th>pts</th>
+                <th>Ast</th>
+                <th>ft</th>
+                <th>ftp</th>
+                <th>stl</th>
+                <th>fta</th>
+                <th>fg3</th>
+                <th>fg3p</th>
+                <th>fg</th>
+                <th>fgp</th>
+                <th>blk</th>
+                <th>orb</th>
+                <th>trb</th>
+                <th>tov</th>
+                <th>fg3a</th>
+                <th>fga</th>
+                <th>drb</th>
+                <th>pf</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr id = "tabletr">
+                <th>{{ total.pts }}</th>
+                <th>{{ total.ast }}</th>
+                <th>{{ total.ft }}</th>
+                <th>{{ total.ftp }}</th>
+                <th>{{ total.stl }}</th>
+                <th>{{ total.fta }}</th>
+                <th>{{ total.fg3 }}</th>
+                <th>{{ total.fg3p }}</th>
+                <th>{{ total.fg }}</th>
+                <th>{{ total.fgp }}</th>
+                <th>{{ total.blk }}</th>
+                <th>{{ total.orb }}</th>
+                <th>{{ total.trb }}</th>
+                <th>{{ total.tov }}</th>
+                <th>{{ total.fg3a }}</th>
+                <th>{{ total.fga }}</th>
+                <th>{{ total.drb }}</th>
+                <th>{{ total.pf }}</th>
+              </tr>
+            </tbody>
+
+        </table>
+      </div>
+
+  <!--                    season data                  -->
+  <h2 style="text-align: center">Season</h2>
+  <div class="thumbnail" id="thumbnail-player">
+
+    <table class="table table-sm table-inverse">
+            <thead>
+              <tr id = "tabletr">
+                <th>season</th>
+                <th>pts</th>
+                <th>Ast</th>
+                <th>ft</th>
+                <th>ftp</th>
+                <th>stl</th>
+                <th>fta</th>
+                <th>fg3</th>
+                <th>fg3p</th>
+                <th>fg</th>
+                <th>fgp</th>
+                <th>blk</th>
+                <th>orb</th>
+                <th>trb</th>
+                <th>tov</th>
+                <th>fg3a</th>
+                <th>fga</th>
+                <th>drb</th>
+
+                <th>pf</th>
+              </tr>
+            </thead>
+        {% for season in each_season %}
+            <tbody id = "tabletr">
+              <tr>
+                <th>{{ season.season }}</th>
+                <th>{{ season.data.pts }}</th>
+                <th>{{ season.data.ast }}</th>
+                <th>{{ season.data.ft }}</th>
+                <th>{{ season.data.ftp }}</th>
+                <th>{{ season.data.stl }}</th>
+                <th>{{ season.data.fta }}</th>
+                <th>{{ season.data.fg3 }}</th>
+                <th>{{ season.data.fg3p }}</th>
+                <th>{{ season.data.fg }}</th>
+                <th>{{ season.data.fgp }}</th>
+                <th>{{ season.data.blk }}</th>
+                <th>{{ season.data.orb }}</th>
+                <th>{{ season.data.trb }}</th>
+                <th>{{ season.data.tov }}</th>
+                <th>{{ season.data.fg3a }}</th>
+                <th>{{ season.data.fga }}</th>
+                <th>{{ season.data.drb }}</th>
+                <th>{{ season.data.pf }}</th>
+              </tr>
+            </tbody>
+          {% endfor %}
+        </table>
+      </div>
+
+
+      <h2 style="text-align: center">Chart</h2>
+      <div class="thumbnail" id="thumbnail-player">
+        <h3 id="chartTitle" style="text-align: center">Chart</h3>
+        <button class="btn btn-primary btn-md" id="btn1">Points</button>
+        <button class="btn btn-primary btn-md" id="btn2">Assist</button>
+
+        <div id="points">
+          <canvas id="chart" width="600" height="400" style="display: block; margin: 0 auto;"></canvas>
+
+                <script>
+                $("#btn1").click(function(){
+                    $('#chart').remove();
+                    $('#chartTitle').text("Points")
+                    $('#points').append('<canvas id="chart" width="600" height="400" style="display: block; margin: 0 auto;"></canvas>');
+                    var barData = {
+                   labels : [{% for season in each_season %}
+                                  "{{season.season}}",
+                              {% endfor %}],
+                   datasets : [
+                      {
+                            fillColor: "rgba(255,255,255,0.2)",
+                            strokeColor: "rgba(151,187,205,1)",
+                            pointColor: "rgba(151,187,205,1)",
+                         data : [{% for season in  each_season %}
+                                      {{season.data.pts}},
+                                    {% endfor %}]
+                      }
+                      ]
+                   }
+                   // get bar chart canvas
+                   var mychart = document.getElementById("chart").getContext("2d");
+                   steps = 10;
+                   max = Math.ceil({{each_season[0].data.pts}} + 10);
+                   min = Math.ceil({{each_season[0].data.pts}} - 10);
+                   // draw bar chart
+                   new Chart(mychart).Line(barData, {
+                        scaleOverride: false,
+                        scaleSteps: steps,
+                        scaleStepWidth: Math.ceil((max - min ) / steps),
+                        scaleStartValue: min,
+                        scaleShowVerticalLines: false,
+                        scaleShowGridLines : false,
+                        barShowStroke : false,
+                        scaleShowLabels: true
+                   });
+                   });
+
+                  $("#btn2").click(function(){
+                    $('#chart').remove();
+                    $('#chartTitle').text("Assist")
+                    $('#points').append('<canvas id="chart" width="600" height="400" style="display: block; margin: 0 auto;"></canvas>');
+
+                      var barData = {
+                      labels : [{% for season in each_season %}
+                                  "{{season.season}}",
+                              {% endfor %}],
+                      datasets : [
+                        {
+                            fillColor: "rgba(255,255,255,0.2)",
+                            strokeColor: "rgba(151,187,205,1)",
+                            pointColor: "rgba(151,187,205,1)",
+                         data : [{% for season in  each_season %}
+                                      {{season.data.ast}},
+                                    {% endfor %}]
+                      }
+                      ]
+                   }
+                   // get bar chart canvas
+                   var mychart = document.getElementById("chart").getContext("2d");
+                   steps = 10;
+                   max = Math.ceil({{each_season[0].data.ast}} + 10);
+                   min = Math.ceil({{each_season[0].data.ast}} - 10);
+                   // draw bar chart
+                   new Chart(mychart).Line(barData, {
+                        scaleOverride: false,
+                        scaleSteps: steps,
+                        scaleStepWidth: Math.ceil((max - min ) / steps),
+                        scaleStartValue: min,
+                        scaleShowVerticalLines: false,
+                        scaleShowGridLines : false,
+                        barShowStroke : false,
+                        scaleShowLabels: true
+                   });
+                   });
+              </script>
+              </div>
+            </div>
+    </div>
+
+{% endblock %}

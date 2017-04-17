@@ -1,0 +1,41 @@
+t_name,t_abbv,t_score,t_home,t_won,gameUID,date,t_ast,t_blk,t_drb,t_fg,t_fg3,t_fg3a,t_fga,t_ft,t_fta,t_orb,t_pf,t_stl,t_tov,t_trb
+Los Angeles Clippers,LAC,108,False,1,52f29f95ddbd75540aba6db4,1985-10-25,19,7,31,39,0,0,80,30,40,11,32,7,18,42
+Sacramento Kings,SAC,104,True,0,52f29f95ddbd75540aba6db4,1985-10-25,17,2,28,39,0,2,88,26,41,20,34,5,20,48
+Boston Celtics,BOS,105,False,1,52f29f96ddbd75540aba6db7,1985-10-26,22,2,33,36,0,3,86,33,45,21,24,3,14,54
+Cleveland Cavaliers,CLE,100,True,0,52f29f96ddbd75540aba6db7,1985-10-26,20,7,27,39,3,7,89,19,33,13,32,4,11,40
+Indiana Pacers,IND,119,True,1,52f29f98ddbd75540aba6dba,1985-10-26,27,4,42,44,0,0,74,31,34,6,27,8,27,48
+New Jersey Nets,NJN,92,False,0,52f29f98ddbd75540aba6dba,1985-10-26,19,0,23,31,0,2,79,30,45,9,28,10,19,32
+Philadelphia 76ers,PHI,99,False,1,52f29f99ddbd75540aba6dbd,1985-10-26,20,6,37,33,0,3,81,33,39,22,26,9,23,59
+New York Knicks,NYK,89,True,0,52f29f99ddbd75540aba6dbd,1985-10-26,19,5,19,36,1,3,92,16,25,10,28,12,13,29
+Atlanta Hawks,ATL,102,True,1,52f29f9bddbd75540aba6dc0,1985-10-29,21,7,36,37,1,3,86,27,38,24,25,9,12,60
+New York Knicks,NYK,87,False,0,52f29f9bddbd75540aba6dc0,1985-10-29,15,3,25,31,0,3,84,25,36,19,26,8,12,44
+Los Angeles Lakers,LAL,133,False,1,52f29f9cddbd75540aba6dc2,1985-10-29,35,3,44,58,2,6,101,15,18,16,32,6,19,60
+Dallas Mavericks,DAL,115,True,0,52f29f9cddbd75540aba6dc2,1985-10-29,29,2,20,43,1,4,99,28,35,11,20,8,12,31
+Detroit Pistons,DET,124,True,1,52f29f9cddbd75540aba6dc3,1985-10-29,25,4,36,42,2,3,87,38,56,14,34,7,15,50
+New Jersey Nets,NJN,107,False,0,52f29f9cddbd75540aba6dc3,1985-10-29,22,4,41,40,1,5,98,26,35,18,39,6,20,59
+Chicago Bulls,CHI,111,False,1,52f29f9dddbd75540aba6dc4,1985-10-29,24,5,33,45,0,1,92,21,26,13,27,6,14,46
+Golden State Warriors,GSW,105,True,0,52f29f9dddbd75540aba6dc4,1985-10-29,23,3,38,40,4,6,89,21,28,13,25,3,21,51
+Houston Rockets,HOU,111,True,1,52f29f9dddbd75540aba6dc5,1985-10-29,26,6,30,43,0,0,82,25,30,14,20,9,23,44
+Seattle SuperSonics,SEA,99,False,0,52f29f9dddbd75540aba6dc5,1985-10-29,21,5,20,39,3,6,87,18,24,12,24,16,20,32
+Los Angeles Clippers,LAC,119,True,1,52f29f9eddbd75540aba6dc6,1985-10-29,35,4,26,46,0,1,91,27,36,15,23,7,14,41
+Portland Trail Blazers,POR,113,False,0,52f29f9eddbd75540aba6dc6,1985-10-29,33,4,28,48,1,6,99,16,24,18,27,9,18,46
+Milwaukee Bucks,MIL,119,True,1,52f29f9eddbd75540aba6dc7,1985-10-29,32,5,22,51,3,6,86,14,20,9,29,8,18,31
+Philadelphia 76ers,PHI,117,False,0,52f29f9eddbd75540aba6dc7,1985-10-29,26,4,29,46,1,5,93,24,36,20,20,10,18,49
+Denver Nuggets,DEN,142,False,1,52f29f9fddbd75540aba6dc8,1985-10-29,26,7,27,49,1,4,108,43,54,24,39,20,30,51
+Phoenix Suns,PHO,127,True,0,52f29f9fddbd75540aba6dc8,1985-10-29,30,6,30,44,0,1,85,39,57,14,41,13,39,44
+San Antonio Spurs,SAS,124,True,1,52f29f9fddbd75540aba6dc9,1985-10-29,26,6,33,43,0,1,89,38,49,24,31,10,18,57
+Utah Jazz,UTA,112,False,0,52f29f9fddbd75540aba6dc9,1985-10-29,27,8,25,43,0,0,90,26,40,12,33,7,18,37
+Boston Celtics,BOS,117,True,1,52f29fa0ddbd75540aba6dca,1985-10-30,27,9,33,42,0,2,84,33,41,15,30,8,22,48
+Milwaukee Bucks,MIL,106,False,0,52f29fa0ddbd75540aba6dca,1985-10-30,21,3,24,40,2,7,92,24,33,15,33,13,20,39
+New Jersey Nets,NJN,147,True,1,52f29fa0ddbd75540aba6dcb,1985-10-30,27,6,47,55,0,3,121,37,46,18,36,14,20,65
+Indiana Pacers,IND,138,False,0,52f29fa0ddbd75540aba6dcb,1985-10-30,24,6,39,48,0,1,109,42,50,19,35,9,22,58
+Philadelphia 76ers,PHI,132,True,1,52f29fa1ddbd75540aba6dcc,1985-10-30,33,7,30,51,0,2,108,30,41,18,31,8,12,48
+Detroit Pistons,DET,125,False,0,52f29fa1ddbd75540aba6dcc,1985-10-30,34,4,41,52,0,1,110,21,28,20,36,6,19,61
+Utah Jazz,UTA,102,True,1,52f29fa1ddbd75540aba6dcd,1985-10-30,20,5,28,35,0,0,81,32,41,12,23,16,17,40
+San Antonio Spurs,SAS,100,False,0,52f29fa1ddbd75540aba6dcd,1985-10-30,28,9,35,41,0,1,83,18,24,10,31,8,26,45
+Denver Nuggets,DEN,90,True,1,52f29fa2ddbd75540aba6dce,1985-10-31,19,4,28,35,2,5,82,18,21,13,28,11,22,41
+Seattle SuperSonics,SEA,73,False,0,52f29fa2ddbd75540aba6dce,1985-10-31,13,5,30,27,0,4,68,19,30,12,27,5,28,42
+Dallas Mavericks,DAL,119,True,1,52f29fa7ddbd75540aba6dda,1985-11-02,25,5,30,43,1,6,91,32,36,13,17,6,16,43
+Sacramento Kings,SAC,113,False,0,52f29fa7ddbd75540aba6dda,1985-11-02,39,4,28,52,1,5,102,8,13,13,29,8,14,41
+Los Angeles Lakers,LAL,120,False,1,52f29fa7ddbd75540aba6ddb,1985-11-02,25,3,27,49,2,6,84,20,27,9,24,4,15,36
+Golden State Warriors,GSW,116,True,0,52f29fa7ddbd75540aba6ddb,1985-11-02,25,9,25,48,2,3,86,18,27,9,28,6,15,34
