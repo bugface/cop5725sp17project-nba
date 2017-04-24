@@ -8,7 +8,7 @@ import logging
 from logging import Formatter, FileHandler
 from forms import LoginForm, InsertForm, PlayerYearForm, PlayerSearchForm, CollegeForm, CoachYearForm, categotyForm
 import os
-import models
+import Models
 from flask_bootstrap import Bootstrap
 from db_conn import db_conn_utils as dcu
 import json
@@ -637,5 +637,5 @@ if not app.debug:
 # Or specify port manually:
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 80))
     app.run(host='0.0.0.0', port=port)

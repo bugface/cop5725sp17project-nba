@@ -1,1 +1,668 @@
 
+2017-04-17 12:40:47,021 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-17 12:40:47,021 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-17 12:40:54,290 ERROR: Exception on /team [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 74, in team
+    teams = Models.Team.query.all()
+NameError: name 'Models' is not defined
+2017-04-17 12:41:00,210 ERROR: Exception on /team [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 74, in team
+    teams = Models.Team.query.all()
+NameError: name 'Models' is not defined
+2017-04-17 12:41:25,256 ERROR: Exception on /player [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 271, in player
+    seasons = dcu.all_seasons()
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\db_conn.py", line 90, in all_seasons
+    with cls.engine.begin() as conn:
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1972, in begin
+    conn = self.contextual_connect(close_with_result=close_with_result)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-17 12:41:31,758 ERROR: Exception on /team [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 74, in team
+    teams = Models.Team.query.all()
+NameError: name 'Models' is not defined
+2017-04-17 12:42:57,142 ERROR: Exception on /player [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 271, in player
+    seasons = dcu.all_seasons()
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\db_conn.py", line 90, in all_seasons
+    with cls.engine.begin() as conn:
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1972, in begin
+    conn = self.contextual_connect(close_with_result=close_with_result)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-17 12:43:18,315 ERROR: Exception on /advanced_search [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 353, in advanced_search
+    seasons = dcu.all_seasons()
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\db_conn.py", line 90, in all_seasons
+    with cls.engine.begin() as conn:
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1972, in begin
+    conn = self.contextual_connect(close_with_result=close_with_result)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-17 12:43:39,500 ERROR: Exception on /season/show/2007-08 [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 157, in showSeason
+    res = dcu.select_all_where('seasons', sid)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\db_conn.py", line 52, in select_all_where
+    with cls.engine.begin() as conn:
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1972, in begin
+    conn = self.contextual_connect(close_with_result=close_with_result)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-17 12:44:09,070 ERROR: Exception on /player [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 271, in player
+    seasons = dcu.all_seasons()
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\db_conn.py", line 90, in all_seasons
+    with cls.engine.begin() as conn:
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1972, in begin
+    conn = self.contextual_connect(close_with_result=close_with_result)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-19 15:38:55,683 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 15:38:55,699 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 16:17:44,994 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 16:17:45,002 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 16:18:28,986 ERROR: Exception on /team [GET] [in D:\Python3.5.3\lib\site-packages\flask\app.py:1423]
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Python3.5.3\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Python3.5.3\lib\site-packages\flask\app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py", line 74, in team
+    teams = Models.Team.query.all()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\query.py", line 2638, in all
+    return list(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\query.py", line 2790, in __iter__
+    return self._execute_and_instances(context)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\query.py", line 2811, in _execute_and_instances
+    close_with_result=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\query.py", line 2820, in _get_bind_args
+    **kw
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\query.py", line 2802, in _connection_from_session
+    conn = self.session.connection(**kw)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\session.py", line 966, in connection
+    execution_options=execution_options)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\session.py", line 971, in _connection_for_bind
+    engine, execution_options)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\orm\session.py", line 403, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2103, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2142, in _wrap_pool_connect
+    e, dialect, self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 1456, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\base.py", line 2138, in _wrap_pool_connect
+    return fn()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 387, in connect
+    return _ConnectionFairy._checkout(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\util\compat.py", line 187, in reraise
+    raise value
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "D:\Python3.5.3\lib\site-packages\sqlalchemy\engine\default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect timeout occurred
+
+2017-04-19 17:12:37,859 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 17:12:37,875 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 17:32:50,576 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-19 17:32:50,581 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]

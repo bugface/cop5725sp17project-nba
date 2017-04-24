@@ -3,7 +3,7 @@ import datetime
 import json
 
 class db_conn_utils:
-	SQLALCHEMY_DATABASE_URI = "oracle://xiyang:alex1988@oracle.cise.ufl.edu/orcl"
+	SQLALCHEMY_DATABASE_URI = "oracle://alexgre:alex1988@cop5725sp17.clx2hx01phun.us-east-1.rds.amazonaws.com/ORCL" #"oracle://xiyang:alex1988@oracle.cise.ufl.edu/orcl"
 	engine = create_engine(SQLALCHEMY_DATABASE_URI)
 
 	@classmethod

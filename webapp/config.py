@@ -12,5 +12,5 @@ SECRET_KEY = 'cop5725'
 
 # Connect to the database
 #SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'database.db')
-SQLALCHEMY_DATABASE_URI = "oracle://xiyang:alex1988@oracle.cise.ufl.edu/orcl"
+SQLALCHEMY_DATABASE_URI = "oracle://alexgre:alex1988@cop5725sp17.clx2hx01phun.us-east-1.rds.amazonaws.com/ORCL" #"oracle://xiyang:alex1988@oracle.cise.ufl.edu/orcl"
 SQLALCHEMY_TRACK_MODIFICATIONS = True
