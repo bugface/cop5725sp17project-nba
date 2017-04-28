@@ -12,6 +12,6 @@ alexgre@ufl.edu
 
 The project is depoyed on amazon aws and all data were transfered to amazon RDS
 you can view the project at:
-#put ip here
+54.87.26.24
 
 oracle database savepoint: cop5725full
