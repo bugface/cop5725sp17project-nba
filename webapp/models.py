@@ -2,7 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 # from sqlalchemy import Column, Integer, String
-from app import db
+#from app import db
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.inspection import inspect
 
 # engine = create_engine('sqlite:///database.db', echo=True)
@@ -30,6 +31,8 @@ from sqlalchemy.inspection import inspect
 
 # # Create tables.
 # Base.metadata.create_all(bind=engine)
+
+db = SQLAlchemy(app)
 
 class Serializer(object):
     def serialize(self):

@@ -666,3 +666,5 @@ sqlalchemy.exc.DatabaseError: (cx_Oracle.DatabaseError) ORA-12170: TNS:Connect t
 2017-04-19 17:12:37,875 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
 2017-04-19 17:32:50,576 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
 2017-04-19 17:32:50,581 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-28 09:32:14,215 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
+2017-04-28 09:32:14,217 INFO: errors [in D:\pythonproject\cop5725\cop5725sp17project-nba\webapp\app.py:627]
